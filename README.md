@@ -38,11 +38,3 @@ Per mantenere il codice ordinato e separare l'interfaccia grafica dalle query SQ
 * **PostgreSQL** (tabelle, vincoli `CHECK`/`FOREIGN KEY` e trigger in `PL/pgSQL`)
 * **JDBC** (driver per collegare Java a PostgreSQL)
 * **Maven** (`pom.xml` per gestire le dipendenze del progetto)
-
----
-
-## 📂 Struttura delle cartelle
-
-```text
-├── java/          # Codice sorgente (src/main/java) e file Maven (pom.xml)
-└── sql/           # Script SQL con tabelle, vincoli, trigger e dati iniziali
