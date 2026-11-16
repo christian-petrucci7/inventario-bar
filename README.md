@@ -45,4 +45,4 @@ Per mantenere il codice ordinato e separare l'interfaccia grafica dalle query SQ
 
 ```text
 ├── java/          # Codice sorgente (src/main/java) e file Maven (pom.xml)
-├── sql/           # Script SQL con tabelle, vincoli, trigger e dati iniziali
+└── sql/           # Script SQL con tabelle, vincoli, trigger e dati iniziali
