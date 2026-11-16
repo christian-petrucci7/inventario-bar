@@ -46,4 +46,3 @@ Per mantenere il codice ordinato e separare l'interfaccia grafica dalle query SQ
 ```text
 ├── java/          # Codice sorgente (src/main/java) e file Maven (pom.xml)
 ├── sql/           # Script SQL con tabelle, vincoli, trigger e dati iniziali
-└── pdf/           # Documentazione tecnica (schemi ER, diagrammi UML, casi d'uso)
