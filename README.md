@@ -1,4 +1,4 @@
-# 🍹 Bar Inventory Manager
+# Bar Inventory Manager
 
 Applicazione desktop sviluppata in **Java** e **PostgreSQL** per gestire l'inventario, gli ordini e le scorte di un bar. 
 
@@ -6,7 +6,7 @@ L'obiettivo del progetto è stato mettere in pratica la programmazione orientata
 
 ---
 
-## 🚀 Cosa fa l'applicazione
+## Cosa fa l'applicazione
 
 * **Login e Gestione Permessi:** L'accesso è diviso in due ruoli. L'**Impiegato** può controllare le giacenze e prelevare i prodotti durante il servizio, mentre il **Manager** ha accesso completo per aggiungere nuove scorte, gestire i fornitori ed effettuare gli ordini.
 * **Operazioni CRUD sull'Inventario:** Permette di inserire nuovi prodotti a catalogo, caricare in magazzino la merce appena arrivata (o aggiungerla manualmente), scalare le quantità consumate e rimuovere articoli.
@@ -20,7 +20,7 @@ L'obiettivo del progetto è stato mettere in pratica la programmazione orientata
 
 ---
 
-## 🏗️ Come è strutturato il codice
+## Come è strutturato il codice
 
 Per mantenere il codice ordinato e separare l'interfaccia grafica dalle query SQL, ho diviso l'applicazione in 5 package seguendo il pattern **BCE + DAO** (*Boundary, Control, Entity + Data Access Object*):
 
@@ -32,7 +32,7 @@ Per mantenere il codice ordinato e separare l'interfaccia grafica dalle query SQ
 
 ---
 
-## 🛠️ Tecnologie utilizzate
+## Tecnologie utilizzate
 
 * **Java** (OOP + Swing per l'interfaccia desktop)
 * **PostgreSQL** (tabelle, vincoli `CHECK`/`FOREIGN KEY` e trigger in `PL/pgSQL`)
